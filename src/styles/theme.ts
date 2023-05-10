@@ -9,12 +9,12 @@ export const theme = extendTheme({
       '600': '#1A1A1A',
     },
     purple: {
-      '100': '#8284FA',
-      '200': '#5E60CE',
+      '10': '#8284FA',
+      '20': '#5E60CE',
     },
-    gren: {
-      '100': '#4EA8DE',
-      '200': '#1E6F9F',
+    green: {
+      '10': '#5FA89C',
+      '20': '#0CCFA2',
     },
 
     danger: '#E25858',
