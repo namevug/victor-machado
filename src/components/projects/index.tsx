@@ -1,4 +1,4 @@
-import { Box, Text, Image } from '@chakra-ui/react'
+import { Box, Text, Image, Link, Flex } from '@chakra-ui/react'
 
 export default function Projects() {
   return (
@@ -26,16 +26,63 @@ export default function Projects() {
         mentoria, aumente a eficiência de seus ensinamentos e leve seus alunos
         ao próximo nível com o MentorGo.
       </Text>
-      <Text mt='0.563rem' mb='0.563rem' fontSize='0.875rem' fontWeight='600'>
+
+      <Flex
+        mt='0.563rem'
+        mb='0.563rem'
+        fontSize='1.125rem'
+        fontWeight='600'
+        alignItems='center'
+        gap='0.375rem'
+      >
+        <Text
+          cursor='pointer'
+          _hover={{ color: 'green.10', transition: 'color 0.3s ease-in-out' }}
+        >
+          NextJs
+        </Text>
+        <Box
+          w='0.375rem'
+          h='0.375rem'
+          borderRadius='9999px'
+          bgColor='green.10'
+        />
+        <Text
+          cursor='pointer'
+          _hover={{ color: 'green.10', transition: 'color 0.3s ease-in-out' }}
+        >
+          ChakraUi
+        </Text>
+        <Box
+          w='0.375rem'
+          h='0.375rem'
+          borderRadius='9999px'
+          bgColor='green.10'
+        />
+        <Text
+          cursor='pointer'
+          _hover={{ color: 'green.10', transition: 'color 0.3s ease-in-out' }}
+        >
+          MongoDb
+        </Text>
+      </Flex>
+
+      {/* <Text mt='0.563rem' mb='0.563rem' fontSize='1.125rem' fontWeight='600'>
         NextJs ChakraUi MongoDb
-      </Text>
-      <Text fontWeight='600' color='#5FA89C'>
-        <a href='#'>View in Github</a>
-      </Text>
+      </Text> */}
+
+      <Link
+        href='#'
+        fontWeight='600'
+        color='green.10'
+        _hover={{ color: 'green.20', transition: 'color 0.6s ease-in-out' }}
+      >
+        View in Github
+      </Link>
 
       <Box
         maxWidth='28.75rem'
-        mt='0.75rem'
+        mt='1rem'
         cursor='pointer'
         _hover={{ transform: 'scale(1.06)' }}
         transition='transform 0.2s ease-in-out'
