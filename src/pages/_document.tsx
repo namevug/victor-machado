@@ -6,6 +6,27 @@ export default function Document() {
   return (
     <Html lang='en'>
       <Head>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+            window.dataLayer = window.dataLayer || [];
+          `,
+          }}
+        />
+        <script
+          async
+          src='https://www.googletagmanager.com/gtag/js?id=G-KJM80EELZF'
+        ></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-KJM80EELZF');
+          `,
+          }}
+        />
+
         <link rel='preconnect' href='https://fonts.googleapis.com' />
         <link rel='preconnect' href='https://fonts.gstatic.com' />
         <link
