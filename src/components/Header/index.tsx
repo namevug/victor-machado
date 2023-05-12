@@ -10,7 +10,7 @@ export default function Header() {
         <Profile />
         <Hi />
         <Text w={'100%'} mt='3rem' fontSize='0.875rem'>
-          Olá, sou Victor, um desenvolvedor Front-End de 25 anos apaixonado por
+          Olá, sou Victor, um desenvolvedor Front-End de 26 anos apaixonado por
           criar interfaces elegantes e funcionais que proporcionam a melhor
           experiência possível para o usuário final. Sempre priorizando um
           código limpo e otimizado em meus projetos. Em meu portfólio, você
