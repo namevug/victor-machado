@@ -12,6 +12,7 @@ export default function Profile() {
         src='https://avatars.githubusercontent.com/u/97545136?v=4'
         title='Imagem de perfil Victor'
         borderRadius='100%'
+        filter='grayscale(95%)'
       />
     </Box>
   )
