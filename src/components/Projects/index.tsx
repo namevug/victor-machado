@@ -41,14 +41,13 @@ export default function Projects({
 
       <Link
         maxWidth='28.75rem'
-        href='#'
+        href={href}
         target='_blank'
         fontWeight='600'
         color='green.10'
         _hover={{ color: 'green.20', transition: 'color 0.6s ease-in-out' }}
       >
-        {href}
-
+        View in Web
         <Image
           w='100%'
           src={image}
