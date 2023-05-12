@@ -6,10 +6,16 @@ import NavList from './NavList'
 export default function Header() {
   return (
     <>
-      <Box w='100%' maxWidth='25.625rem' mr='2rem'>
+      <Box
+        w='100%'
+        maxW='38.125rem'
+        mt='2rem'
+        // maxWidth='25.625rem'
+        // mr='2rem'
+      >
         <Profile />
         <Hi />
-        <Text w={'100%'} mt='3rem' fontSize='0.875rem'>
+        <Text w={'100%'} mt='3rem' fontSize={['0.813rem', '1rem', '1.188rem']}>
           Olá, sou Victor, um desenvolvedor Front-End de 26 anos apaixonado por
           criar interfaces elegantes e funcionais que proporcionam a melhor
           experiência possível para o usuário final. Sempre priorizando um

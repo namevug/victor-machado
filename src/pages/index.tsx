@@ -1,11 +1,14 @@
 import Header from '@/components/Header'
 import Projects from '@/components/Projects'
-import { Flex, VStack } from '@chakra-ui/react'
+import { Box, Flex, VStack } from '@chakra-ui/react'
 
 export default function Home() {
   return (
     <>
-      <Flex
+      <Flex justifyContent={'center'} margin='1rem'>
+        <Header />
+      </Flex>
+      {/* <Flex
         maxWidth='80rem'
         justifyContent='space-between'
         flexDirection={['column', 'column', 'column', 'row']}
@@ -25,7 +28,8 @@ export default function Home() {
           href='#'
           image='/projects/mentorgo.png'
         />
-      </Flex>
+
+      </Flex> */}
     </>
   )
 }
