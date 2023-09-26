@@ -11,17 +11,14 @@ export default function Header() {
         maxW='38.125rem'
         mt='2rem'
         // maxWidth='25.625rem'
-        // mr='2rem'
+        mr='2rem'
       >
         <Profile />
         <Hi />
         <Text w={'100%'} mt='3rem' fontSize={['0.813rem', '1rem', '1.188rem']}>
-          Olá, sou Victor, um desenvolvedor Front-End de 26 anos apaixonado por
-          criar interfaces elegantes e funcionais que proporcionam a melhor
-          experiência possível para o usuário final. Sempre priorizando um
-          código limpo e otimizado em meus projetos. Em meu portfólio, você
-          encontrará alguns dos meus projetos recentes e desafiadores, além de
-          informações sobre minhas habilidades e experiências anteriores.
+        Olá, me chamo Victor, um desenvolvedor Front-End apaixonado por tecnologia, que também se aventura no mundo da moda com o projeto Vug Collection. <br></br>
+        Busco criar interfaces elegantes e funcionais que proporcionam a melhor experiência para o usuário final, priorizando um código limpo e otimizado
+        em meus projetos.
         </Text>
         <NavList />
       </Box>
