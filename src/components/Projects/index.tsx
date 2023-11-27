@@ -1,4 +1,4 @@
-import { Box, Text, Image, Link, Flex } from '@chakra-ui/react'
+import { Box, Image, Link } from '@chakra-ui/react'
 import SetupList from './SetupList'
 
 interface ProjectsProps {
@@ -37,7 +37,7 @@ export default function Projects({
         {description}
       </Box>
 
-      <SetupList />
+      <SetupList title='teste'/>
 
       <Link
         maxWidth='28.75rem'

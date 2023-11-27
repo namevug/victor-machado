@@ -1,6 +1,10 @@
 import { Box, Flex, Text } from '@chakra-ui/react'
 
-export default function SetupList() {
+interface SetupList {
+  title: string
+}
+
+export default function SetupList({title}: SetupList) {
   return (
     <Flex
       mt='0.563rem'
@@ -10,14 +14,16 @@ export default function SetupList() {
       alignItems='center'
       gap='0.375rem'
     >
-      <Text
+      <Box
         cursor='pointer'
         _hover={{ color: 'green.10', transition: 'color 0.3s ease-in-out' }}
       >
-        NextJs
-      </Text>
+        {title}
+      </Box>
+
       <Box w='0.375rem' h='0.375rem' borderRadius='9999px' bgColor='green.10' />
-      <Text
+
+      {/* <Text
         cursor='pointer'
         _hover={{ color: 'green.10', transition: 'color 0.3s ease-in-out' }}
       >
@@ -29,7 +35,7 @@ export default function SetupList() {
         _hover={{ color: 'green.10', transition: 'color 0.3s ease-in-out' }}
       >
         MongoDb
-      </Text>
+      </Text> */}
     </Flex>
   )
 }
