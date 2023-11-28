@@ -21,19 +21,19 @@ export default function Home() {
   }, []);
 
   const project = [
-    // {
-    //   date: "2023 - Now",
-    //   title: "Verbaliza Cx.",
-    //   description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-    //   stacks: ["Next.js", "Tailwind", "PostgreSQL"],
-    //   href: "https://verbalizacx.com/",
-    //   image: "/projects/verbalizapp.png",
-    // },
+    {
+      date: "2023 - Oct",
+      title: "Verbaliza Cx.",
+      description: "VerbalizaCx redefine a gestão de experiência do cliente com inovação SaaS. Permitimos que os clientes se expressem de maneira única através de foto, vídeo, áudio e texto. Métricas detalhadas proporcionam insights valiosos, capacitando as empresas a compreenderem profundamente a satisfação do cliente. ",
+      stacks: ["Next.js", "Tailwind", "PostgreSQL"],
+      href: "https://verbalizacx.com/",
+      image: "/projects/verbalizapp.png",
+    },
     {
       date: "2023 Jan - Apr",
       title: "MentorGo.",
       description:
-        "O MentorGo facilita a gestão do desenvolvimento individual de alunos, oferecendo recursos personalizados como criação de desafios, artigos, salas e cadastro de cursos. Potencialize seus ensinamentos e conduza seus alunos a um patamar superior com a ajuda do MentorGo.",
+        "O MentorGo facilita a gestão do desenvolvimento individual de alunos, oferecendo recursos personalizados como criação de desafios, artigos, salas e cadastro de cursos.",
       stacks: ["Next.js", "ChakraUi", "MongoDB"],
       href: "https://mentor-go.vercel.app/",
       image: "/projects/mentorgo.png",
