@@ -99,7 +99,6 @@ export default function Home() {
               image={project.image}
             />
           ))}
-          <p>teste</p>
         </VStack>
         )}
       </Flex>
