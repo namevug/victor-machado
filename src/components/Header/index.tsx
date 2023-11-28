@@ -15,7 +15,7 @@ export default function Header() {
       >
         <Profile />
         <Hi />
-        <Text w={'100%'} mt='3rem' fontSize={['0.813rem', '1rem', '1.188rem']}>
+        <Text w={'100%'} mt='3rem' fontSize={['0.813rem', '1rem', '1rem']}>
         Olá, me chamo Victor, um desenvolvedor Front-End apaixonado por tecnologia, que também se aventura no mundo da moda com o projeto Vug Collection. <br></br>
         Busco criar interfaces elegantes e funcionais que proporcionam a melhor experiência para o usuário final, priorizando um código limpo e otimizado
         em meus projetos.
