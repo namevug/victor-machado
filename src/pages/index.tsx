@@ -23,8 +23,8 @@ export default function Home() {
   const project = [
     {
       date: "2023 - Oct",
-      title: "Verbaliza Cx.",
-      description: "VerbalizaCx redefine a gestão de experiência do cliente com inovação SaaS. Permitimos que os clientes se expressem de maneira única através de foto, vídeo, áudio e texto. Métricas detalhadas proporcionam insights valiosos, capacitando as empresas a compreenderem profundamente a satisfação do cliente. ",
+      title: "VerbalizaCx.",
+      description: "O Verbaliza redefine a gestão de experiência do cliente com inovação SaaS. Permitimos que os clientes se expressem de maneira única através de foto, vídeo, áudio e texto. Métricas detalhadas proporcionam insights valiosos, capacitando as empresas a compreenderem profundamente a satisfação do cliente. ",
       stacks: ["Next.js", "Tailwind", "PostgreSQL"],
       href: "https://verbalizacx.com/",
       image: "/projects/verbalizapp.png",
@@ -46,7 +46,7 @@ export default function Home() {
         maxWidth="80rem"
         justifyContent="space-between"
         flexDirection={["column", "column", "column", "row"]}
-        m={["2rem", "2rem", "3rem", "3rem", "6rem"]}
+        m={["2rem", "2rem", "3rem", "3rem", "4rem"]}  // ajustar aqui, pois está gerando uma rolagem na página principal verificar!
       >
         <Header />
         {windowWidth > 991 ? (
@@ -82,7 +82,25 @@ export default function Home() {
               />
             ))}
           </VStack>
-        ) : null}
+        ) : (
+          <VStack
+          gap="4.5rem"
+          maxW="610px"
+          align="start"
+        >
+          {project.map((project, index) => (
+            <Projects
+              key={index}
+              date={project.date}
+              title={project.title}
+              description={project.description}
+              stacks={project.stacks}
+              href={project.href}
+              image={project.image}
+            />
+          ))}
+        </VStack>
+        )}
       </Flex>
     </>
   );
