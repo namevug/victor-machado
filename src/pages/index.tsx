@@ -1,6 +1,6 @@
 import Header from "@/components/Header";
 import Projects from "@/components/Projects";
-import { Flex, VStack } from "@chakra-ui/react";
+import { Center, Flex, VStack } from "@chakra-ui/react";
 import { useState, useEffect } from "react";
 
 export default function Home() {
@@ -43,32 +43,33 @@ export default function Home() {
   return (
     <>
       <Flex
-        maxWidth="80rem"
-        justifyContent="space-between"
         flexDirection={["column", "column", "column", "row"]}
-        m={["2rem", "2rem", "3rem", "3rem", "4rem"]}  // ajustar aqui, pois está gerando uma rolagem na página principal verificar!
+        justifyContent="center"
+        alignContent="center"
+        m="2rem"  // ajustar aqui, pois está gerando uma rolagem na página principal verificar!
       >
         <Header />
         {windowWidth > 991 ? (
           <VStack
-            h="75vh"
-            gap="4.5rem"
-            overflowY="scroll"
-            w="610px"
-            pb="1rem"
+            mt='1rem'
+            // h="90vh"
+            gap="7rem"
+            // overflowY="scroll"
+            // w="610px"
+            p="1rem"
 
-            sx={{
-              /* Chrome, Edge, and Safari */
-              "&::-webkit-scrollbar": {
-                width: "0.5rem",
-                height: "0.5rem",
-              },
-              "&::-webkit-scrollbar-thumb": {
-                backgroundColor: "#808080",
-                borderRadius: "4px",
-                border: "4px none #808080",
-              },
-            }}
+            // sx={{
+            //   /* Chrome, Edge, and Safari */
+            //   "&::-webkit-scrollbar": {
+            //     width: "0.5rem",
+            //     height: "0.5rem",
+            //   },
+            //   "&::-webkit-scrollbar-thumb": {
+            //     backgroundColor: "#808080",
+            //     borderRadius: "4px",
+            //     border: "4px none #808080",
+            //   },
+            // }}
           >
             {project.map((project, index) => (
               <Projects

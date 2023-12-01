@@ -9,7 +9,7 @@ export default function Hi() {
       fontWeight={'bold'}
       className='gradient-text'
     >
-      <Text title='Hi, I’m'>Hi, I’m</Text>
+      <Text title='Hi, I’m'>Olá, sou</Text>
       <Text title='Victor Machado.'>Victor Machado.</Text>
     </Box>
   )

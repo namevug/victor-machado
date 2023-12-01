@@ -9,10 +9,10 @@ export default function Profile() {
       transition='transform 0.2s ease-in-out'
     >
       <Image
-        src='https://avatars.githubusercontent.com/u/97545136?v=4'
+        // src='https://avatars.githubusercontent.com/u/97545136?v=4'
+        src='/namevug.png'
         title='Imagem de perfil Victor'
         borderRadius='100%'
-        // filter='grayscale(95%)'
       />
     </Box>
   )
