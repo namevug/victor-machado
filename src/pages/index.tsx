@@ -22,7 +22,7 @@ export default function Home() {
 
   const project = [
     {
-      date: "2023 - Oct",
+      date: "2023 Mai - Out",
       title: "VerbalizaCx.",
       description: "O Verbaliza redefine a gestão de experiência do cliente com inovação SaaS. Permitimos que os clientes se expressem de maneira única através de foto, vídeo, áudio e texto. Métricas detalhadas proporcionam insights valiosos, capacitando as empresas a compreenderem profundamente a satisfação do cliente. ",
       stacks: ["Next.js", "Tailwind", "PostgreSQL"],
@@ -30,7 +30,7 @@ export default function Home() {
       image: "/projects/verbalizapp.png",
     },
     {
-      date: "2023 Jan - Apr",
+      date: "2023 Jan - Abr",
       title: "MentorGo.",
       description:
         "O MentorGo facilita a gestão do desenvolvimento individual de alunos, oferecendo recursos personalizados como criação de desafios, artigos, salas e cadastro de cursos.",
