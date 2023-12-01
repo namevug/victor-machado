@@ -64,7 +64,7 @@ export default function Projects({
         color="green.10"
         _hover={{ color: "green.20", transition: "color 0.6s ease-in-out" }}
       >
-        View in Web
+        Ver na Web
         <Image
           w="100%"
           src={image}
